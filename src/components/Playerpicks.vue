@@ -1,6 +1,8 @@
 <template>
   <div id="playerpicks">
     <h1>Player Picks</h1>
+    <button>Add Players</button>
+    <button>Save List</button>
   </div>
 </template>
 
