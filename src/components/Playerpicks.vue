@@ -3,6 +3,11 @@
     <h1>Player Picks</h1>
     <button>Add Players</button>
     <button>Save List</button>
+    <ul>
+      <li>
+        <label>Player Name</label><input></input>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -21,6 +26,15 @@ export default {
   width: 50%;
 	padding: 10px;
   margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+label {
+  padding-right: 10px;
 }
 
 </style>

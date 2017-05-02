@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <leaderboard></leaderboard>
-    <playerpicks></playerpicks>
+    <div class="container">
+      <leaderboard></leaderboard>
+      <playerpicks></playerpicks>
+    </div>
+      <todo-list></todo-list>
   </div>
 </template>
 
@@ -9,12 +12,14 @@
 
 import Leaderboard from './components/Leaderboard'
 import Playerpicks from './components/Playerpicks'
+import TodoList from './components/TodoList'
 
 export default {
   name: 'App',
   components: {
     Leaderboard,
-    Playerpicks
+    Playerpicks,
+    TodoList
   }
 }
 </script>
@@ -27,10 +32,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: black;
+}
+
+.container {
   margin-top: 10px;
   display: -ms-flex;
-	display: -webkit-flex;
-	display: flex;
+  display: -webkit-flex;
+  display: flex;
 }
 
 button:hover {

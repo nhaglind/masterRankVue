@@ -70,27 +70,4 @@ export default {
 	padding: 10px;
 }
 
-tr {
-  text-align: left;
-}
-
-td {
-  min-width: 200px;
-}
-
-button {
-  display: inline;
-  background: black;
-  color: white;
-  text-transform: uppercase;
-  border: 2px solid black;
-  padding: 10px;
-  margin: 0 0 20px 0px
-}
-
-button:hover {
-  background: white;
-  color: black;
-}
-
 </style>

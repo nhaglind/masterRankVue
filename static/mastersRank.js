@@ -16,6 +16,10 @@ var playerList = [
 
 var maxWeight = 10;
 
+var psAnnounce = playerList.map((playerList) => playerList.playerName + ' has a current score of ' + playerList.score)
+
+var cutOff = playerList.filter((playerList) => playerList.overUnder < 0)
+
 function updateLeaderboard() {
   pds = json;
 }
